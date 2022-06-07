@@ -1,0 +1,29 @@
+server:
+  port: 8085
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8
+      enable: true
+      force: true
+
+spring:
+  datasource:
+    url:jdbc: 'mysql://127.0.01/fayewong'
+    username: root
+    password: '@52zyjzR8'
+    driver-class-name: 'com.mysql.jdbc.Driver'
+
+person:
+  lastName: 阿布
+  age: 18
+  boss: false
+  birth: 1990/12/12
+  maps: { k1: v1,k2: 12 }
+  lists:
+    ‐ lisi
+    ‐ zhaoliu
+  dog:
+    name: rose
+    age: 5
