@@ -10,6 +10,6 @@ public class Springboot20220530Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Springboot20220530Application.class, args);
+        System.out.println("空瓶子");
     }
-
 }

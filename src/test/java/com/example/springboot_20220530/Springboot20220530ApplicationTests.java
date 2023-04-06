@@ -30,6 +30,7 @@ class Springboot20220530ApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(personService.getPersonInfo());
+        System.out.println("personService");
         System.out.println(person);
     }
 
